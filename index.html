@@ -10,63 +10,152 @@
 <body>
 
     <header>
-        <div class="Navigation">
-            <div class="left">
-                <img src="img/logo frauen.png" alt="Logo" />
+        <div class="navigation">
+          <div class="wrapper flex">
+
+            <div class="col-20">
+              <img src="img/logo frauen.png" alt="Logo" />
             </div>
-            
-            <div class="right">
+
+            <div class="col-80">
               <nav>
                 <ul>
-                  <li><a href="#"> Home </a></li>
-                  <li><a href="#"> Porträtvideos </a></li>
-                  <li><a href="#"> News </a></li>
-                  <li><a href="#"> Toolbar </a></li>
+                  <li><a href="index.html"> Home </a></li>
+                  <li><a href="portraetvideos.html"> Porträtvideos </a></li>
+                  <li><a href="news.html"> News </a></li>
+                  <li><a href="toolbar.html"> Toolbar </a></li>
                 </ul>
               </nav>
             </div>
 
+           </div>
           </div>
     </header>
 
     <main>
+        <!--<div class="wrapper">
+          <div class="flex">
+             <img src="img/teamfoto.jpg" alt="Frauen in der Schweizer Armee" id="hintergrundsbild"/>
+          </div>
+        </div>-->
+
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/DEOEn0CjDFs?si=MtKbPr5l8xP3-hun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>-->
+
+        <iframe class="startvideo" width="560" height="315" src="https://www.youtube.com/embed/tOWiRL58b2Y?si=mlf-JRl8OUJXjWcj&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+
         <div class="wrapper">
           <div class="flex">
-            <div class="col-30">
-              <img src="img/teamfoto.jpg" alt="Foto Frauen in der Schweizer Armee"/>
+
+            <div class="portrait">
+              <h2>Porträtvideos von Frauen in der Schweizer Armee</h2>
+              <p>
+                Sicherheit ist auch weiblich! Die Frauen in der Schweizer Armee leisten einen wesentlichen Beitrag zur Sicherheit in der Schweiz.  Hier erfahren Sie mehr über die Geschichten und Erfahrungen der Frauen, die sich mutig für ihren Dienst in der Armee entschieden haben. Diese Videos bieten einen einzigartigen Einblick in ihre Lebenswege, ihre Motivation und ihre bemerkenswerten Beiträge zur Sicherheit und Verteidigung der Schweiz. Die Schweizer Armee hat sich im Laufe der Jahre stark weiterentwickelt und ist heute ein Ort, an dem Frauen gleiche Chancen und Herausforderungen wie Männer haben. Unsere Porträtvideos zeigen die Vielfalt der Rollen und Aufgaben, die Frauen in der Armee übernehmen, von der Ausbildung bis hin zu Führungspositionen. Wir wollen Frauen ermutigen, sich in der Armee zu engagieren und ihre Potenziale auszuschöpfen, denn ihre Stärke und Entschlossenheit sind ein unverzichtbarer Teil unserer Verteidigungskräfte.
+              </p>
+              <button>
+                <a href="portraetvideos.html">Zu den Porträtvideos</a>
+              </button>
             </div>
-            <div class="col-30">
-  
+
+            <div class="news">
+              <h2>Aktuelle Nachrichten über Frauen in der Schweizer Armee</h2>
+              <p>
+                Die aktuellen Nachrichten und Geschichten widmen sich ganz den Frauen in der Schweizer Armee. Erfahren Sie hier aus erster Hand von ihren Leistungen und Erfahrungen, die zur Sicherheit und Verteidigung der Schweiz beitragen. Entdecken Sie ihre inspirierenden Geschichten und wie sie die Armee bereichern. 
+              </p>
+              <button>
+                <a href="news.html">Zu den News</a>
+              </button>
             </div>
-            <div class="col-30">
-            </div>
+
+          <div class="toolbar">
+            <h2>Toolbar</h2>
+            <p>
+              In der Toolbar sind wichtige Informationen und Hilfestellungen zentral gesammelt. Mit nur einem Klick gelangen Sie direkt auf Ihr gewünschtes Ziel. 
+            </p>
+            <button>
+              <a href="toolbar.html">Zur Toolbar</a>
+            </button>
           </div>
-
-          <div class="flex">
-            <div class="col-30">
-              <h3>Porträtvideos</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid laborum magni eius? Dolores doloribus, repellat culpa, est voluptate vel, temporibus deleniti repudiandae accusamus dolorem alias corporis, exercitationem nesciunt ipsa fuga neque nobis sapiente!
-              </p>
-            </div>
-
-            <div class="col-30">
-              <h3>News</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid laborum magni eius? Dolores doloribus, repellat culpa, est voluptate vel, temporibus deleniti repudiandae accusamus dolorem alias corporis, exercitationem nesciunt ipsa fuga neque nobis sapiente!
-              </p>
-            </div>
-
-            <div class="col-30">
-              <h3>Toolbar</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquid laborum magni eius? Dolores doloribus, repellat culpa, est voluptate vel, temporibus deleniti repudiandae accusamus dolorem alias corporis, exercitationem nesciunt ipsa fuga neque nobis sapiente!
-              </p>
-            </div>
-
+          
           </div>
         </div>
+
+
+
+        <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 9</div>
+                <img src="img/appell.jpg" style="width:100%">
+                <div class="text">Appell</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 9</div>
+                <img src="img/essen.jpg" style="width:100%">
+                <div class="text">Essen</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 9</div>
+                <img src="img/führung.jpg" style="width:100%">
+                <div class="text">Führung</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 9</div>
+                <img src="img/rede.jpg" style="width:100%">
+                <div class="text">Rede</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 9</div>
+                <img src="img/marsch.jpg" style="width:100%">
+                <div class="text">Marsch</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 9</div>
+                <img src="img/pferd.jpg" style="width:100%">
+                <div class="text">Pferd</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 9</div>
+                <img src="img/sani.jpg" style="width:100%">
+                <div class="text">Sanität</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">8 / 9</div>
+                <img src="img/polizei.jpg" style="width:100%">
+                <div class="text">Polizei</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">9 / 9</div>
+                <img src="img/schuhpflege.jpg" style="width:100%">
+                <div class="text">Schuhpflege</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
       </main>
-    <script src="script.js"></script>
+
+    <script src="/js/script.js"></script>
 </body>
 </html>
