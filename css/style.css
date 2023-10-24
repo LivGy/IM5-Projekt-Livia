@@ -1,3 +1,6 @@
+/*****************INDEX.HTML******************/
+/*****************INDEX.HTML******************/
+/*****************INDEX.HTML******************/
 * {
 font-size: 1em;
 font-family: 'Arial', sans-serif;
@@ -254,3 +257,65 @@ h2{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+/*****************PORTRAETVIDEOS.HTML******************/
+/*****************PORTRAETVIDEOS.HTML******************/
+/*****************PORTRAETVIDEOS.HTML******************/
+
+
+
+
+
+
+
+/*****************NEWS.HTML******************/
+/*****************NEWS.HTML******************/
+/*****************NEWS.HTML******************/
+
+
+
+
+
+
+
+/*****************TOOLBAR.HTML******************/
+/*****************TOOLBAR.HTML******************/
+/*****************TOOLBAR.HTML******************/
+#toolcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  width: 150px;
+  background-color: black;
+  margin: 20px;
+  color: white;
+
+}
+
+img.bilderintoolbar {
+  max-width: 50%;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
