@@ -272,6 +272,10 @@ h2{
 /*****************PORTRAETVIDEOS.HTML******************/
 #portraetvideoscontainer{
 margin-top: var(--abstand-m);
+display: grid;
+grid-template-columns: repeat(1, 500px);
+grid-gap: 20px; /* Fügt Abstand zwischen den Elementen hinzu*/
+margin-bottom: 40px;
 }
 
 
@@ -279,7 +283,18 @@ margin-top: var(--abstand-m);
 /*****************NEWS.HTML******************/
 /*****************NEWS.HTML******************/
 /*****************NEWS.HTML******************/
+#rssFeedCards{
+  display: grid;
+  grid-template-columns: repeat(2, 250px); /* Erstellt drei gleich breite Spalten */
+  grid-gap: 50px; /* Fügt Abstand zwischen den Elementen hinzu*/
+  margin-top: 25px;
+  margin-bottom: 40px;
 
+}
+
+#rssFeedCards a{
+  color: red;
+}
 
 
 

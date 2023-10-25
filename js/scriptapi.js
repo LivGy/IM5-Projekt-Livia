@@ -18,11 +18,34 @@ function parseRssFeed() {
 }
 
 // Funktion zum Erstellen einer Karte (Card) und Anzeigen in der UI
-function createCard(title) {
-  // Hier kannst du die Logik zum Erstellen und Anzeigen der Karten in deiner UI implementieren
-  // Zum Beispiel kannst du <div>-Elemente erstellen und sie mit den Informationen ausstatten.
-  
-  console.log(title);
+// Damit es im HTML die Ihalte ausgibt
+function createCard(title, description, link) {
+  const rssFeedCards = document.getElementById('rssFeedCards');
+
+  // Erstelle ein <div>-Element für die Karte
+  const cardDiv = document.createElement('div');
+  cardDiv.className = 'card';
+
+  // Erstelle <h2> für den Titel
+  const titleElement = document.createElement('h3');
+  titleElement.textContent = title;
+
+  // Erstelle <p> für die Beschreibung
+  const descriptionElement = document.createElement('p');
+  descriptionElement.textContent = description;
+
+  // Erstelle <a> für den Link
+  const linkElement = document.createElement('a');
+  linkElement.textContent = 'Mehr lesen';
+  linkElement.href = link;
+
+  // Füge die erstellten Elemente zur Karte hinzu
+  cardDiv.appendChild(titleElement);
+  cardDiv.appendChild(descriptionElement);
+  cardDiv.appendChild(linkElement);
+
+  // Füge die Karte zum Container hinzu
+  rssFeedCards.appendChild(cardDiv);
 }
 
 // Den RSS-Feed parsen, wenn die Seite geladen wird
