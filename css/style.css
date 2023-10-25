@@ -270,10 +270,9 @@ h2{
 /*****************PORTRAETVIDEOS.HTML******************/
 /*****************PORTRAETVIDEOS.HTML******************/
 /*****************PORTRAETVIDEOS.HTML******************/
-
-
-
-
+#portraetvideoscontainer{
+margin-top: var(--abstand-m);
+}
 
 
 
@@ -336,9 +335,27 @@ article:hover a{
 
 
 
+/*****************RESPONSIVE******************/
+/*****************RESPONSIVE******************/
+/*****************RESPONSIVE******************/
 
+/* Stile für große Bildschirme */
+@media (min-width: 1024px) {
+  /* Füge hier deine Stile für große Bildschirme ein */
 
+}
 
+/* Stile für mittlere Bildschirme */
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* Füge hier deine Stile für mittlere Bildschirme ein */
+
+}
+
+/* Stile für kleine Bildschirme */
+@media (max-width: 767px) {
+  /* Füge hier deine Stile für kleine Bildschirme ein */
+
+}
 
 
 
