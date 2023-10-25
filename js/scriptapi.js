@@ -21,6 +21,7 @@ function parseRssFeed() {
 function createCard(title) {
   // Hier kannst du die Logik zum Erstellen und Anzeigen der Karten in deiner UI implementieren
   // Zum Beispiel kannst du <div>-Elemente erstellen und sie mit den Informationen ausstatten.
+  
   console.log(title);
 }
 

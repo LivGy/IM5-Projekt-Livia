@@ -42,14 +42,49 @@
     <p>Hier erfahren Sie aus erster Hand von den bemerkenswerten Leistungen, Herausforderungen und Erfahrungen dieser Frauen, die einen wesentlichen Beitrag zur Sicherheit und Verteidigung der Schweiz leisten.
     Wir möchten nicht nur die Erfolge dieser Frauen feiern, sondern auch ein Bewusstsein für die Chancen schaffen, die sich jungen Frauen in der Armee bieten. Unsere News sollen inspirieren, ermutigen und dazu beitragen, die Anerkennung für den wichtigen Dienst dieser Frauen zu stärken.
     </p>
-    
-
-
-
 
     </div>
     </div>
   </main>
+
+  <div id="rssFeedCards"></div>
+
+        <script>
+        // Hier fügst du den JavaScript-Code zum Abrufen und Verarbeiten des RSS-Feeds ein
+
+        // Funktion zum Erstellen einer Karte (Card) und Anzeigen in der UI
+        function createCard(title, description, link) {
+            const rssFeedCards = document.getElementById('rssFeedCards');
+
+            // Erstelle ein <div>-Element für die Karte
+            const cardDiv = document.createElement('div');
+            cardDiv.className = 'card';
+
+            // Erstelle <h2> für den Titel
+            const titleElement = document.createElement('h2');
+            titleElement.textContent = title;
+
+            // Erstelle <p> für die Beschreibung
+            const descriptionElement = document.createElement('p');
+            descriptionElement.textContent = description;
+
+            // Erstelle <a> für den Link
+            const linkElement = document.createElement('a');
+            linkElement.textContent = 'Mehr lesen';
+            linkElement.href = link;
+
+            // Füge die erstellten Elemente zur Karte hinzu
+            cardDiv.appendChild(titleElement);
+            cardDiv.appendChild(descriptionElement);
+            cardDiv.appendChild(linkElement);
+
+            // Füge die Karte zum Container hinzu
+            rssFeedCards.appendChild(cardDiv);
+        }
+
+        // Die restliche JavaScript-Logik zum Abrufen und Verarbeiten des RSS-Feeds (wie im vorherigen Beispiel gezeigt)
+        //parseRssFeed();
+        </script>
   
 </body>
 
