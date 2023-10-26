@@ -1,5 +1,5 @@
 # IM5
- #Dokumentation:
+ # Dokumentation:
 
 
  
@@ -7,9 +7,9 @@
  
  
  
- #Quellenangaben:
+ # Quellenangaben:
 
- **HTML
+ ** HTML
  <br>
  https://validator.w3.org/
  <br>
@@ -22,7 +22,7 @@
  https://www.google.ch/
  <br>
 
-**CSS
+** CSS
  <br>
  https://htmlcheatsheet.com/css/
  <br>
@@ -45,7 +45,7 @@
  https://www.google.ch/
  <br>
 
-**Java Script
+** Java Script
  <br>
  https://www.w3schools.com/
  <br>
