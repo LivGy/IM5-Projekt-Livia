@@ -1,6 +1,17 @@
-# IM5
  # Dokumentation:
+ Ich habe die IM-Tage in Steps aufgeteilt, wobei für einige Steps mehrere Tage in Anspruch genommen wurden.
+ <br>
 
+**Step 1**
+- GitHub eingerichtet
+- Lokale Ablage eingerichtet
+- Ungefähre Struktur auf VS Code angelegt
+- Inhalte gesammelt für auf Website
+- Moodboard erstellt mit grobem CI/CD
+- Grobe Wirefrimes von geplanter Website erstellt
+<br>
+
+**Step 2**
 
  
  
@@ -9,7 +20,7 @@
  
  # Quellenangaben:
 
- ** HTML
+ **HTML**
  <br>
  https://validator.w3.org/
  <br>
@@ -22,7 +33,7 @@
  https://www.google.ch/
  <br>
 
-** CSS
+**CSS**
  <br>
  https://htmlcheatsheet.com/css/
  <br>
@@ -45,7 +56,7 @@
  https://www.google.ch/
  <br>
 
-** Java Script
+**Java Script**
  <br>
  https://www.w3schools.com/
  <br>
