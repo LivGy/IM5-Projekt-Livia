@@ -10,6 +10,7 @@
 * {
 font-size: 1em;
 font-family: 'Arial', sans-serif;
+line-height: 24px; /* Setzt den Zeilenabstand auf 24 Pixel */
 box-sizing: border-box;
 margin: 0 auto;
 }
@@ -273,11 +274,16 @@ h2{
 #portraetvideoscontainer{
 margin-top: var(--abstand-m);
 display: grid;
-grid-template-columns: repeat(1, 500px);
+grid-template-columns: repeat(2, 500px);
 grid-gap: 20px; /* Fügt Abstand zwischen den Elementen hinzu*/
 margin-bottom: 40px;
+justify-content: center;
 }
+#portraetvideoscontainer iframe{
+  width: 100%;
+  height: 315px;
 
+}
 
 
 /*****************NEWS.HTML******************/
@@ -310,12 +316,13 @@ margin-bottom: 40px;
   grid-gap: 10px; /* Fügt Abstand zwischen den Elementen hinzu */
   margin-top: 25px;
   margin-bottom: 40px;
+  justify-content: center;
 }
 
 article {
   width: 250px;
-  background-color: black;
-  color: white;
+  background-color: rgb(120, 134, 107);
+  color: rgb(120, 134, 107);
   text-align: center;
 }
 
