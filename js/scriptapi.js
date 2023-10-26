@@ -26,8 +26,11 @@ function createCard(title, description, link) {
   const cardDiv = document.createElement('div');
   cardDiv.className = 'card';
 
+  // Füge ein Bild ein ober dem Titel
+  
+
   // Erstelle <h2> für den Titel
-  const titleElement = document.createElement('h3');
+  const titleElement = document.createElement('h4');
   titleElement.textContent = title;
 
   // Erstelle <p> für die Beschreibung

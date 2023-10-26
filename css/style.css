@@ -2,69 +2,77 @@
   --abstand-m: 20px;
   --abstand-s: 15px;
   --abstand-xs: 10px;
-}
+  }
 
-/*****************INDEX.HTML******************/
-/*****************INDEX.HTML******************/
-/*****************INDEX.HTML******************/
 * {
-font-size: 1em;
-font-family: 'Arial', sans-serif;
-line-height: 24px; /* Setzt den Zeilenabstand auf 24 Pixel */
-box-sizing: border-box;
-margin: 0 auto;
-}
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  }
 
-.wrapper{
-width: 88vw;
-margin: 0 auto;
-}
+  p{
+  text-align: justify;
+  text-align-last: none;
+  line-height: 24px; /* Setzt den Zeilenabstand auf 24 Pixel */
+  }
 
-h1{
-font-family: 'Arial Black', sans-serif;
-font-size: 6em;
-}
+  .wrapper{
+  width: 88vw;
+  margin: 0 auto;
+  }
+  
+  h1{
+  font-family: 'Arial Black', sans-serif;
+  font-size: 6em;
+  }
+  
+  h2{
+  font-size: 2.2em;
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: uppercase;
+  } 
 
-h2{
-font-size: 2.2em;
-font-weight: 100;
-}
+  
+  h1, h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  }
+  
+  .marginTop-70{
+  margin-top: 70vh;
+  }
+  
+  .flex{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  }
+  
+  .toolbar{
+      margin: 0; 
+  }
 
-h1, h2{
-margin-top: 20px;
-margin-bottom: 20px;
-padding: 0;
-}
+/*****************INDEX.HTML******************/
+/*****************INDEX.HTML******************/
+/*****************INDEX.HTML******************/
 
-.marginTop-70{
-margin-top: 70vh;
-}
-
-.flex{
-display: flex;
-gap: 10px;
-flex-wrap: wrap;
-justify-content: flex-start;
-}
-
-.toolbar{
-    margin: 0; 
-}
-
-/*****************HEADER******************/
+/*****************HEADER UND NAV******************/
 .Navigation .flex{
 align-items: center;
 }
   
-/*********************NAVIGATION**************************/
 header .Navigation .col-80{
     text-align: right;
     }
     
 .col-80{
-flex: 1 0 78%;
-display: inline-block;
- }
+  flex: 1 0 78%;
+  display: inline-block;
+}
 
 .col-20{
 flex: 1 0 18%;
@@ -121,63 +129,25 @@ z-index: -1;
 top: 12vh;
 left: 0;
 }*/
+.col-50{
+  flex: 1 0 48%;
+  display: inline-block;
+}
+
+.blocksatz{
+ padding-right: 20px;
+}
 
 #slideshow{
     /*position: absolute;*/
-    width: 40vw;
-    height: auto;
-    z-index: -1;
-    top: 12vh;
-    left: 0;
-    }
+  width: 40vw;
+  height: auto;
+  z-index: -1;
+  top: 12vh;
+  left: 0;
+  }
 
-
-/*********************BUTTONS**************************/
-button {
-    padding: 10px 15px;
-    background-color: black;
-    margin: 20px 0;
-}
-
-button a{
-    color: white;
-}
-
-
-button:hover{
-    background-color:white;
-}
-
-button:hover a{
-    color: black;
-}
-
-
-/*********************TEXT UND VIDEO AUF HOME**************************/
-h2{
-    margin: 20px 0 10px 0;
-}
-
-.portrait{
-    margin: 40px 0 0 0;
-}
-
-.toolbar{
-    padding-bottom: 20px;
-}
-
-.fluid-yt {
-    aspect-ratio: 16 / 9;
-    margin-top: 40px;
-}
-
-.fluid-yt .startvideo {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-/*********************SLIDESHOW**************************/
+  /*********************SLIDESHOW**************************/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -252,7 +222,7 @@ h2{
 }*/
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgb(120, 134, 107);
 }
 
 /* Fading animation */
@@ -266,6 +236,139 @@ h2{
   to {opacity: 1}
 }
 
+/*********************BUTTONS**************************/
+button {
+    padding: 10px 15px;
+    background-color: rgb(120, 134, 107);
+    margin: 20px 0;
+    border: 1px solid rgb(120, 134, 107);
+}
+
+button a{
+    color: white;
+}
+
+
+button:hover{
+    background-color:white;
+}
+
+button:hover a{
+    color: rgb(120, 134, 107);
+}
+
+/*********************TEXT UND VIDEO AUF HOME**************************/
+h2{
+    margin: 20px 0 10px 0;
+}
+
+.portrait{
+    margin: 40px 0 0 0;
+}
+
+.toolbar{
+    padding-bottom: 20px;
+}
+
+.fluid-yt {
+    aspect-ratio: 16 / 9;
+    margin-top: 40px;
+}
+
+.fluid-yt .startvideo {
+    width: 99vw;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15vh;
+    z-index: -8;
+}
+
+/*********************ANIMIERTER PFEIL**************************/
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-container {
+  width: 1px;
+  height: 44px;
+  position: absolute;
+  margin-bottom: 100px;  
+  top: 80vh;
+  left: 50vw;
+}
+
+.container h5{
+  position: absolute;
+  top: 75vh;
+  color: white;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+.line {
+  position: absolute;
+  z-index: 10;
+  width: 2px;
+  height: 0px;
+  background-color: #fff;
+  top: 0;
+  bottom: initial;
+  animation: line-animation 2.5s ease-in-out 0s infinite normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.line::before {
+  content: " ";
+  width: 16px;
+  height: 16px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: rotate(45deg);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  animation: arrow-animation 2.5s ease-in-out 0s infinite normal;
+}
+
+@keyframes line-animation {
+  0% {
+    height: 0px;
+    top: 0px;
+    opacity: 0;
+  }
+  50% {
+    height: 44px;
+    top: 0px;
+    opacity: 1;
+  }
+  100% {
+    height: 0px;
+    top: 44px;
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 
 /*****************PORTRAETVIDEOS.HTML******************/
@@ -291,16 +394,24 @@ justify-content: center;
 /*****************NEWS.HTML******************/
 #rssFeedCards{
   display: grid;
-  grid-template-columns: repeat(2, 250px); /* Erstellt drei gleich breite Spalten */
+  grid-template-columns: repeat(4, 250px); /* Erstellt drei gleich breite Spalten */
   grid-gap: 50px; /* Fügt Abstand zwischen den Elementen hinzu*/
   margin-top: 25px;
   margin-bottom: 40px;
-
 }
 
 #rssFeedCards a{
-  color: red;
+  color: white;
 }
+
+.card{
+  background-color: rgb(120, 134, 107);
+  padding: 15px 20px ;
+  width: 15vw;
+  justify-content: center;
+}
+
+
 
 
 
@@ -347,14 +458,15 @@ article:hover{
 }
 
 article:hover a{
-  color: black;
+  color: rgb(120, 134, 107);
 }
 
-/* Ändere das Logo auf Schwarz, wenn der Benutzer darüber fährt (Hover) */
+/* Ändere das Logo auf Camuflage, wenn der Benutzer darüber fährt (Hover) */
 #toolcontainer a:hover .bilderintoolbar {
-  filter: invert(1); /* Ändere die Farben des Logos (weiß wird zu schwarz) */
+  filter: invert(1);
+  /*filter: hue-rotate(90deg);*/
+  
 }
-
 
 
 /*****************RESPONSIVE******************/

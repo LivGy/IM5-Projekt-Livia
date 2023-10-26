@@ -5,6 +5,7 @@
     <title>Frauen in der Schweizer Armee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 <body>
@@ -41,7 +42,7 @@
       <div class="wrapper">
         <div class="fluid-yt">
           <iframe class="startvideo"
-          src="https://www.youtube.com/embed/tOWiRL58b2Y?si=mlf-JRl8OUJXjWcj&amp;controls=0" 
+          src="https://www.youtube.com/embed/tOWiRL58b2Y?si=mlf-JRl8OUJXjWcj&amp;controls=0&autoplay=1" 
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -50,43 +51,29 @@
         </div>
       </div>
 
+      <div class="container">
+        <h5>Scroll down </h5>
+        <div class="line-container">
+          <a href="#portrait">
+          <div class="line"></div></a>
+        </div>
+      </div>
+
         <div class="wrapper">
           <div class="flex">
 
-            <div class="portrait">
-              <h2>Porträtvideos von Frauen in der Schweizer Armee</h2>
+            <div class="portrait flex" id="portrait">
+              <div class="col-50 blocksatz">
+                <h2>Porträtvideos von Frauen in der Schweizer Armee</h2>
               <p>
                 Sicherheit ist auch weiblich! Die Frauen in der Schweizer Armee leisten einen wesentlichen Beitrag zur Sicherheit in der Schweiz.  Hier erfahren Sie mehr über die Geschichten und Erfahrungen der Frauen, die sich mutig für ihren Dienst in der Armee entschieden haben. Diese Videos bieten einen einzigartigen Einblick in ihre Lebenswege, ihre Motivation und ihre bemerkenswerten Beiträge zur Sicherheit und Verteidigung der Schweiz. Die Schweizer Armee hat sich im Laufe der Jahre stark weiterentwickelt und ist heute ein Ort, an dem Frauen gleiche Chancen und Herausforderungen wie Männer haben. Unsere Porträtvideos zeigen die Vielfalt der Rollen und Aufgaben, die Frauen in der Armee übernehmen, von der Ausbildung bis hin zu Führungspositionen. Wir wollen Frauen ermutigen, sich in der Armee zu engagieren und ihre Potenziale auszuschöpfen, denn ihre Stärke und Entschlossenheit sind ein unverzichtbarer Teil unserer Verteidigungskräfte.
               </p>
               <button>
                 <a href="portraetvideos.html">Zu den Porträtvideos</a>
               </button>
-            </div>
-
-            <div class="news">
-              <h2>Aktuelle Nachrichten zentral gesammelt</h2>
-              <p>
-                Die aktuellen Nachrichten und Geschichten widmen sich ganz den Frauen in der Schweizer Armee. Erfahren Sie hier aus erster Hand von ihren Leistungen und Erfahrungen, die zur Sicherheit und Verteidigung der Schweiz beitragen. Entdecken Sie ihre inspirierenden Geschichten und wie sie die Armee bereichern. 
-              </p>
-              <button>
-                <a href="news.html">Zu den News</a>
-              </button>
-            </div>
-
-          <div class="toolbar">
-            <h2>Die Toolbar</h2>
-            <p>
-            In der Toolbar sind wichtige Informationen und Hilfestellungen zentral gesammelt. Mit nur einem Klick gelangen Sie direkt auf Ihr gewünschtes Ziel. 
-            </p>
-            <button>
-              <a href="toolbar.html">Zur Toolbar</a>
-            </button>
-          </div>
-          
-          </div>
-        </div>
-
-        <!-- Slideshow container -->
+              </div>
+              <div class="col-50">
+                <!-- Slideshow container -->
             <div class="slideshow-container">
 
               <div class="mySlides fade">
@@ -155,6 +142,35 @@
               <span class="dot" onclick="currentSlide(2)"></span>
               <span class="dot" onclick="currentSlide(3)"></span>
             </div>
+              </div>
+            </div>
+
+
+
+            <div class="news">
+              <h2>Aktuelle Nachrichten zentral gesammelt</h2>
+              <p>
+                Die aktuellen Nachrichten und Geschichten widmen sich ganz den Frauen in der Schweizer Armee. Erfahren Sie hier aus erster Hand von ihren Leistungen und Erfahrungen, die zur Sicherheit und Verteidigung der Schweiz beitragen. Entdecken Sie ihre inspirierenden Geschichten und wie sie die Armee bereichern. 
+              </p>
+              <button>
+                <a href="news.html">Zu den News</a>
+              </button>
+            </div>
+
+          <div class="toolbar">
+            <h2>Die Toolbar</h2>
+            <p>
+            In der Toolbar sind wichtige Informationen und Hilfestellungen zentral gesammelt. Mit nur einem Klick gelangen Sie direkt auf Ihr gewünschtes Ziel. 
+            </p>
+            <button>
+              <a href="toolbar.html">Zur Toolbar</a>
+            </button>
+          </div>
+          
+          </div>
+        </div>
+
+    
 
       </main>
 
