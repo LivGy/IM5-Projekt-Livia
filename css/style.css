@@ -4,6 +4,16 @@
   --abstand-xs: 10px;
   }
 
+  ::-webkit-scrollbar {  
+    width: 15px; 
+    background: rgb(243, 243, 243);
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(120, 134, 107);
+    border-radius: 20px;
+  }
+
 * {
   font-size: 1em;
   font-family: 'Arial', sans-serif;
@@ -11,16 +21,11 @@
   margin: 0 auto;
   }
 
-  p{
-  text-align: justify;
-  text-align-last: none;
-  line-height: 24px; /* Setzt den Zeilenabstand auf 24 Pixel */
+  .wrapper{
+    width: 88vw;
+    margin: 0 auto;
   }
 
-  .wrapper{
-  width: 88vw;
-  margin: 0 auto;
-  }
   
   h1{
   font-family: 'Arial Black', sans-serif;
@@ -34,11 +39,16 @@
   text-transform: uppercase;
   } 
 
-  
   h1, h2{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0;
+  }
+
+  p{
+    text-align: justify;
+    text-align-last: none;
+    line-height: 24px; /* Setzt den Zeilenabstand auf 24 Pixel */
   }
   
   .marginTop-70{
@@ -47,7 +57,7 @@
   
   .flex{
   display: flex;
-  gap: 10px;
+  gap: 50px;
   flex-wrap: wrap;
   justify-content: flex-start;
   }
@@ -68,16 +78,26 @@ align-items: center;
 header .Navigation .col-80{
     text-align: right;
     }
-    
+
+.col-10{
+  flex: 1 0 4%;
+  display: inline-block;
+  }
+
+.col-20{
+  flex: 1 0 18%;
+  display: inline-block;
+  }
+
 .col-80{
   flex: 1 0 78%;
   display: inline-block;
-}
+  }
 
-.col-20{
-flex: 1 0 18%;
-display: inline-block;
-}
+.col-90{
+  flex: 1 0 92%;
+  display: inline-block;
+  }
 
 .col-20 img{
 width: 60%;
@@ -121,21 +141,16 @@ a{
     color: black;
 }
 
+li a:hover{
+  color: rgb(120, 134, 107);
+  text-decoration: underline;
+  }
+
+
 /*********************BILDER**************************/
-/*#hintergrundsbild{
-width: 99vw;
-height: auto;
-z-index: -1;
-top: 12vh;
-left: 0;
-}*/
 .col-50{
   flex: 1 0 48%;
   display: inline-block;
-}
-
-.blocksatz{
- padding-right: 20px;
 }
 
 #slideshow{
@@ -282,7 +297,7 @@ h2{
     position: absolute;
     left: 0;
     top: 15vh;
-    z-index: -8;
+    z-index: 0;
 }
 
 /*********************ANIMIERTER PFEIL**************************/
@@ -370,7 +385,58 @@ h2{
   }
 }
 
+/*********************ZITAT****************************/
+.zitat{
+  background-color: rgb(120, 134, 107);
+  padding: 20px 0;
+  margin: 10vh 0;
+}
 
+.zitat p{
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+.zitat p span{
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+/***********************FOOTER***************************/
+footer{
+  border-top: 2px solid black;
+  margin-top: 10vh;
+}
+
+.copyright{
+  border-top: 1px solid rgb(120, 134, 107);
+  padding-top: 20px;
+}
+
+.copyright p{
+  color: rgb(120, 134, 107);
+  text-align: center;
+  font-size: 0.8em;
+  padding-bottom: 20px;;
+}
+
+footer li, footer li a{
+  color: black;
+}
+
+footer nav{
+  text-align: center;
+}
+
+footer .flex{
+  align-items: center;
+  padding: 20px 0;
+}
+
+.col-10 img{
+  width:100%;
+}
 /*****************PORTRAETVIDEOS.HTML******************/
 /*****************PORTRAETVIDEOS.HTML******************/
 /*****************PORTRAETVIDEOS.HTML******************/
@@ -487,13 +553,12 @@ article:hover{
 }
 
 article:hover a{
-  color: rgb(120, 134, 107);
+  color: rgb(0, 0, 0);
 }
 
-/* Ändere das Logo auf Camuflage, wenn der Benutzer darüber fährt (Hover) */
+/* Ändere das Logo auf schwarz, wenn der Benutzer darüber fährt (Hover) */
 #toolcontainer a:hover .bilderintoolbar {
   filter: invert(1);
-  /*filter: hue-rotate(90deg);*/
   
 }
 

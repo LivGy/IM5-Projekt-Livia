@@ -5,13 +5,14 @@
     <title>Frauen in der Schweizer Armee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="img/Favicon.png">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 <body>
 
     <header>
-        <div class="navigation">
+        <div class="navigation" id="start">
           <div class="wrapper flex">
 
             <div class="col-20">
@@ -42,7 +43,7 @@
       <div class="wrapper">
         <div class="fluid-yt">
           <iframe class="startvideo"
-          src="https://www.youtube.com/embed/tOWiRL58b2Y?si=mlf-JRl8OUJXjWcj&amp;controls=0&autoplay=1" 
+          src="https://www.youtube.com/embed/tOWiRL58b2Y?si=mlf-JRl8OUJXjWcj&amp;controls=1&autoplay=1&mute=1" 
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -55,7 +56,8 @@
         <h5>Scroll down </h5>
         <div class="line-container">
           <a href="#portrait">
-          <div class="line"></div></a>
+             <div class="line"></div>
+          </a>
         </div>
       </div>
 
@@ -63,7 +65,7 @@
           <div class="flex">
 
             <div class="portrait flex" id="portrait">
-              <div class="col-50 blocksatz">
+              <div class="col-50">
                 <h2>Porträtvideos von Frauen in der Schweizer Armee</h2>
               <p>
                 Sicherheit ist auch weiblich! Die Frauen in der Schweizer Armee leisten einen wesentlichen Beitrag zur Sicherheit in der Schweiz.  Hier erfahren Sie mehr über die Geschichten und Erfahrungen der Frauen, die sich mutig für ihren Dienst in der Armee entschieden haben. Diese Videos bieten einen einzigartigen Einblick in ihre Lebenswege, ihre Motivation und ihre bemerkenswerten Beiträge zur Sicherheit und Verteidigung der Schweiz. Die Schweizer Armee hat sich im Laufe der Jahre stark weiterentwickelt und ist heute ein Ort, an dem Frauen gleiche Chancen und Herausforderungen wie Männer haben. Unsere Porträtvideos zeigen die Vielfalt der Rollen und Aufgaben, die Frauen in der Armee übernehmen, von der Ausbildung bis hin zu Führungspositionen. Wir wollen Frauen ermutigen, sich in der Armee zu engagieren und ihre Potenziale auszuschöpfen, denn ihre Stärke und Entschlossenheit sind ein unverzichtbarer Teil unserer Verteidigungskräfte.
@@ -146,7 +148,20 @@
             </div>
 
 
+        </div>
+      </div>
 
+      <div class="zitat">
+        <div class="wrapper">
+          <p>"Die gemachten Erfahrungen in der Armee geben mir auch im zivilen Umfeld Sicherheit im Umgang mit schwierigen Situationen."<br />
+            <span>Christine Steck</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="flex">
+          <div class="col-50">
             <div class="news">
               <h2>Aktuelle Nachrichten zentral gesammelt</h2>
               <p>
@@ -156,23 +171,48 @@
                 <a href="news.html">Zu den News</a>
               </button>
             </div>
-
-          <div class="toolbar">
-            <h2>Die Toolbar</h2>
-            <p>
-            In der Toolbar sind wichtige Informationen und Hilfestellungen zentral gesammelt. Mit nur einem Klick gelangen Sie direkt auf Ihr gewünschtes Ziel. 
-            </p>
-            <button>
-              <a href="toolbar.html">Zur Toolbar</a>
-            </button>
           </div>
-          
+          <div class="col-50">
+            <div class="toolbar">
+              <h2>Die Toolbar</h2>
+              <p>
+              In der Toolbar sind wichtige Informationen und Hilfestellungen zentral gesammelt. Mit nur einem Klick gelangen Sie direkt auf Ihr gewünschtes Ziel. 
+              </p>
+              <button>
+                <a href="toolbar.html">Zur Toolbar</a>
+              </button>
+            </div>
+          </div>
+
           </div>
         </div>
 
-    
-
       </main>
+
+      <footer>
+        <div class="wrapper">
+          <div class="flex">
+            <div class="col-90">
+              <nav>
+                <ul>
+                  <li><a href="index.html"> Home </a></li>
+                  <li><a href="portraetvideos.html"> Porträtvideos </a></li>
+                  <li><a href="news.html"> News </a></li>
+                  <li><a href="toolbar.html"> Toolbar </a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-10">
+              <a href="#start">
+                <img src="img/go-up.png" alt="back to top"/>
+             </a>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>copyright by livia gyger 2023</p>
+          </div>
+        </div>
+      </footer>
 
     <script src="/js/script.js"></script>
 </body>
