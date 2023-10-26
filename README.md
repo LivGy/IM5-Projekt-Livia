@@ -12,11 +12,44 @@
 <br>
 
 **Step 2**
+- Nötige Bilder und Icons bearbeitet und in Ordner img abgelegt
+- index.html erstellt und befüllt (nur grob)
+- news.html erstellt und befüllt (nur grob)
+- portraetvideos.html erstellt und befüllt (nur grob)
+- toolbar.html erstellt und befüllt (nur grob)
+<br>
 
- 
- 
- 
- 
+**Step 3**
+- style.css erstellt und so gut es ging formatiert, damit es übersichtlich bleibt
+- Stylen, stylen, stylen, stylen...
+<br>
+
+**Step 4**
+- script.js erstellt
+- Nach den entsprechenden Funktionen gesucht
+- Funktionen eingebunden und getestet
+- HTML-Files inhaltlich optimiert und angepasst
+<br>
+
+**Step 5**
+- scriptapi.js erstellt
+- Nach den entsprechenden Funktionen gesucht
+- Funktionen eingebunden und getestet
+- news.html optimiert und angepasst
+<br>
+
+**Step 6**
+- Feinschliff der HTML-Dateien
+- Feinschliff der CSS-Datei
+- Kommentare in den verschiedenen Files ergänzt für Übersicht
+<br>
+
+**Step 7**
+- sftp.json Config File erstellt für Upload auf eigenen Server
+- gitignore File erstellt
+- Filezilla für Dateiübertragung
+<br>
+
  
  # Quellenangaben:
 
