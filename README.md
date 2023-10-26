@@ -8,7 +8,7 @@
 - Ungefähre Struktur auf VS Code angelegt
 - Inhalte gesammelt für auf Website
 - Moodboard erstellt mit grobem CI/CD
-- Grobe Wirefrimes von geplanter Website erstellt
+- Grobe Wireframes von geplanter Website erstellt
 <br>
 
 **Step 2**
