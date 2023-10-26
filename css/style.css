@@ -400,18 +400,47 @@ justify-content: center;
   margin-bottom: 40px;
 }
 
+#rssFeedCards h4{
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+#rssFeedCards p{
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 25px;
+  color: white;
+}
+
 #rssFeedCards a{
   color: white;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-top: 25px;
+  display: block; /* Macht den Button zu einem Block-Element */
+  margin: 0 auto; /* Zentriert den Button horizontal im Container */
+  text-align: center;
+}
+
+#rssFeedCards a:hover{
+  background-color: white;
+  color:rgb(120, 134, 107);
 }
 
 .card{
   background-color: rgb(120, 134, 107);
-  padding: 15px 20px ;
+  padding: 15px 20px 30px 20px;
   width: 15vw;
   justify-content: center;
 }
 
-
+.card img{
+  width: 102%;
+  margin-top: 1px;
+  margin-left: -1px;
+  margin-bottom: 20px;
+}
 
 
 
