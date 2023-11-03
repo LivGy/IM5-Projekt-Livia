@@ -106,4 +106,10 @@
  https://www.google.ch/
  <br>
 
+ # Methodik:
+ In ChatGPT habe ich folgende Methode verwendet, um an die gewünschten Resultate zu kommen:
+ 1. Rolle (Als was soll mir ChatGPT zur Verfügung stehen)
+ 2. Aufgabe (Was soll er mir erstellen)
+ 3. Form (Wo soll er mir was anzeigen)
+ 4. Kontext (Zusammenhang der Verwendung)
 
