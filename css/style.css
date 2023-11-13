@@ -414,8 +414,6 @@ h2{
   display: none;
 }
 
-
-
 /***********************FOOTER***************************/
 footer{
   border-top: 2px solid black;
@@ -522,10 +520,6 @@ justify-content: center;
 }
 
 
-
-
-
-
 /*****************TOOLBAR.HTML******************/
 /*****************TOOLBAR.HTML******************/
 /*****************TOOLBAR.HTML******************/
@@ -582,21 +576,88 @@ article:hover a{
 
 /* Stile für große Bildschirme */
 @media (min-width: 1024px) {
-  /* Füge hier deine Stile für große Bildschirme ein */
+.navigation {
+  padding: 20px 0;
+}
 
+h1 {
+  font-size: 7em;
+}
+
+#slideshow {
+  width: 50vw;
+}
+
+.zitateslideshow-container {
+  max-width: 100%;
+}
+
+#toolcontainer {
+  grid-template-columns: repeat(3, 250px);
+}
+
+footer {
+  margin-top: 20vh;
+}
 }
 
 /* Stile für mittlere Bildschirme */
 @media (max-width: 1023px) and (min-width: 768px) {
-  /* Füge hier deine Stile für mittlere Bildschirme ein */
+  .navigation {
+    padding: 15px 0;
+  }
 
+  h1 {
+    font-size: 5em;
+  }
+
+  #slideshow {
+    width: 70vw;
+  }
+
+  .zitateslideshow-container {
+    max-width: 90%;
+  }
+
+  #toolcontainer {
+    grid-template-columns: repeat(2, 250px);
+  }
+
+  footer {
+    margin-top: 15vh;
+  }
 }
+
 
 /* Stile für kleine Bildschirme */
 @media (max-width: 767px) {
-  /* Füge hier deine Stile für kleine Bildschirme ein */
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .col-80 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #slideshow {
+    width: 80vw;
+  }
+
+  .zitateslideshow-container {
+    max-width: 80%;
+  }
+
+  #toolcontainer {
+    grid-template-columns: repeat(2, 1fr); /* Zum Beispiel zwei Spalten für kleinere Bildschirme */
+  }
+
+  footer {
+    padding-top: 10px;
+  }
 }
+
 
 
 
