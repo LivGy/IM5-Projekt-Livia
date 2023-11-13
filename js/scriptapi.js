@@ -19,8 +19,10 @@ function parseRssFeed() {
 
 // Funktion zum Erstellen einer Karte (Card) und Anzeigen in der UI
 function createCard(content) {
+  
   // Hier kannst du die Logik zum Erstellen und Anzeigen der Karten in deiner UI implementieren
   console.log(content);
+
   // Erstelle ein <div>-Element für die Karte
   const cardDiv = document.createElement('div');
   cardDiv.className = 'card'; // Füge CSS-Klassen hinzu, um das Styling anzupassen

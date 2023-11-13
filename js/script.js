@@ -1,4 +1,4 @@
-/*****************SLIDE SHOW BILDER******************/
+/*****************SLIDESHOW BILDER******************/
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -28,7 +28,6 @@ function showSlides(n) {
 }
 
 /*****************PFEIL SCROLL DOWN AUF STARTSEITE******************/
-
 // SMOOTH SCROLL DOWN 
 $(function() {
   $('a[href*=#]').on('click', function(e) {
@@ -37,9 +36,7 @@ $(function() {
   });
   });
 
-
 /*****************ZITATE SLIDESHOW******************/
-
 let slideIndex2 = 1;
 showSlides2(slideIndex2);
 
