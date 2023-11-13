@@ -57,4 +57,3 @@ function createCard(content) {
 
 // Den RSS-Feed parsen, wenn die Seite geladen wird
 parseRssFeed();
-
