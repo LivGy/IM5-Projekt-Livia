@@ -50,6 +50,16 @@
 - Filezilla für Dateiübertragung
 <br>
 
+**PWA**
+- Unterrichtsunterlagen (FS 23) repetiert
+- PWA Builder gestartet und Anleitung entsprechend gefolgt
+- Manifest erstellt und angepasst
+- Icons hinzugefügt
+- Shortcuts hinzugefügt
+- Service Worker erstellt und angepasst
+- Lighthouse - Fehlerbehebung
+<br>
+
  
  # Quellenangaben:
 
@@ -101,6 +111,19 @@
  <br>
  https://codepen.io/trending
  <br>
+ https://chat.openai.com/
+ <br>
+ https://www.google.ch/
+ <br>
+
+ **PWA**
+<br>
+ https://www.pwabuilder.com/
+<br>
+ https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+<br>
+ https://www.w3.org/TR/appmanifest/
+<br>
  https://chat.openai.com/
  <br>
  https://www.google.ch/
