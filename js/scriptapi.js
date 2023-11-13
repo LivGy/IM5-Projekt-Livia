@@ -37,7 +37,6 @@ function createCard(content) {
   const descriptionElement = document.createElement('p');
   descriptionElement.textContent = content.featured_excerpt;
 
-
   // Erstelle ein <a>-Element für den Link
   const linkElement = document.createElement('a');
   linkElement.textContent = 'Mehr lesen';

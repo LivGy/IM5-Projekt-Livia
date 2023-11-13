@@ -1,4 +1,4 @@
-/*****************SLIDE SHOW******************/
+/*****************SLIDE SHOW BILDER******************/
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,7 +27,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
 }
 
-/*****************PFEIL SCROLL DOWN******************/
+/*****************PFEIL SCROLL DOWN AUF STARTSEITE******************/
 
 // SMOOTH SCROLL DOWN 
 $(function() {
@@ -36,7 +36,6 @@ $(function() {
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
   });
-
 
 
 /*****************ZITATE SLIDESHOW******************/

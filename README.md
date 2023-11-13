@@ -6,7 +6,7 @@
 - GitHub eingerichtet
 - Lokale Ablage eingerichtet
 - Ungefähre Struktur auf VS Code angelegt
-- Inhalte gesammelt für auf Website
+- Inhalte gesammelt für auf Website / vorallem Texte zusammengestellt
 - Moodboard erstellt mit grobem CI/CD
 - Grobe Wireframes von geplanter Website erstellt
 <br>
