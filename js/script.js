@@ -67,3 +67,4 @@ function showSlides2(n) {
 setInterval(function() {
   plusSlides2(1);
 }, 7000); // Ändere die Zeit (in Millisekunden) zwischen den Bildern hier
+
