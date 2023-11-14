@@ -2,7 +2,7 @@
   "background_color": "#ffffff",
   "description": "Für im fünften Semester des Moduls Interaktive Medien, setzen wir ein Projekt um, welches mit unserer Bachelorarbeit zu tun hat. In meinem Fall mit Frauen in der Schweizer Armee.",
   "dir": "ltr",
-  "display": "browser",
+  "display": "standalone",
   "name": "Frauen CH Armee",
   "orientation": "any",
   "scope": "/armee/",
