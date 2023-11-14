@@ -5,9 +5,9 @@
   "display": "browser",
   "name": "Frauen CH Armee",
   "orientation": "any",
-  "scope": "/web/",
+  "scope": "/armee/",
   "short_name": "Frauen CH Armee",
-  "start_url": "/web/im5/index.html",
+  "start_url": "/armee/index.html",
   "theme_color": "#ffffff",
   "categories": [
     "education",
