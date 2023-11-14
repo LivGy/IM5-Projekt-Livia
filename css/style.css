@@ -104,13 +104,14 @@ width: 60%;
 }
 
 .navigation{
-/*position: fixed;*/
 width: 100%;
 background-color: black;
 top: 0;
 padding: 20px 0;
 left: 0;
 margin: 0;
+z-index: 2;
+position: relative;
 }
 
 .navigation-startseite{
@@ -575,6 +576,10 @@ article:hover a{
 @media (min-width: 1024px) {
 .navigation {
   padding: 20px 0;
+}
+
+.portrait {
+  margin: 2vh 0 0 0;
 }
 
 h1 {
