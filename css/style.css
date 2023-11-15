@@ -677,12 +677,12 @@ article:hover a{
   display: block;
   position: absolute;
   left: 0;
-  top: 14vh;
+  top: 10vh;
   z-index: 0;
   }
 
 .portrait {
-  margin: 1vh 0 0 0;
+  margin: 12vh 0 0 0;
   }
 }
 
