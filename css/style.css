@@ -71,13 +71,13 @@
 /*****************INDEX.HTML******************/
 
 /*****************HEADER UND NAV******************/
-.Navigation .flex{
-align-items: center;
-}
+ .Navigation .flex{
+  align-items: center;
+  }
   
-header .Navigation .col-80{
-    text-align: right;
-    }
+ header .Navigation .col-80{
+  text-align: right;
+  }
 
 .col-10{
   flex: 1 0 4%;
