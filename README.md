@@ -50,18 +50,24 @@
 - Filezilla für Dateiübertragung
 <br>
 
-**PWA**
+**Step 8**
 - Unterrichtsunterlagen (FS 23) repetiert
 - PWA Builder gestartet und Anleitung entsprechend gefolgt
 - Manifest erstellt und angepasst
 - Icons hinzugefügt
 - Shortcuts hinzugefügt
 - Service Worker erstellt und angepasst
+- Offline Page erstellt und gestaltet
 - Lighthouse - Fehlerbehebung
 <br>
 
- 
- # Quellenangaben:
+**Step 9**
+- Finale Überprüfung
+- Finale Formatierung
+- Video aufgenommen für die Abgabe
+<br>
+
+# Quellenangaben:
 
  **HTML**
  <br>
@@ -108,6 +114,12 @@
  https://629120-15.web.fhgr.ch/
  <br>
  https://developer.mozilla.org/en-US/docs/Web/API?retiredLocale=de
+ <br>
+ https://www.w3schools.com/js/js_api_intro.asp
+ <br>
+ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API?retiredLocale=de
+ <br>
+ https://rapidapi.com/blog/how-to-use-an-api-with-javascript/
  <br>
  https://codepen.io/trending
  <br>
