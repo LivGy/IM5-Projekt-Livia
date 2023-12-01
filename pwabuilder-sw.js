@@ -1,4 +1,4 @@
-// This is the "Offline page" service worker
+// This is the "Offline page" service worker (von PWA Builder exportiert)
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 const CACHE = "pwabuilder-page";
