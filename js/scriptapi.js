@@ -1,4 +1,4 @@
-/*****************API******************/
+/*****************API FÜR NEWS-SEITE******************/
 // Die URL des RSS-Feeds
 const rssFeedUrl = 'https://api.storyblok.com/v1/cdn/stories/?version=published&token=iPF9VlfryqqMlj8F0MWNOgtt';
 
@@ -20,12 +20,12 @@ function parseRssFeed() {
 // Funktion zum Erstellen einer Karte (Card) und Anzeigen in der UI
 function createCard(content) {
   
-  // Hier kannst du die Logik zum Erstellen und Anzeigen der Karten in deiner UI implementieren
+  // Hier wird die Logik zum Erstellen und Anzeigen der Karten in UI implementiert
   console.log(content);
 
   // Erstelle ein <div>-Element für die Karte
   const cardDiv = document.createElement('div');
-  cardDiv.className = 'card'; // Füge CSS-Klassen hinzu, um das Styling anzupassen
+  cardDiv.className = 'card';
 
   // Erstelle ein <img>-Element für das featured_image
   const featuredImageElement = document.createElement('img');
