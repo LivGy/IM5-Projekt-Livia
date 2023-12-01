@@ -1,4 +1,4 @@
-/*****************SLIDESHOW BILDER******************/
+/*****************SLIDESHOW BILDER AUF STARTSEITE******************/
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -33,10 +33,10 @@ $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-  });
+});
+});
 
-/*****************ZITATE SLIDESHOW******************/
+/*****************ZITATE SLIDESHOW AUF STARTSEITE******************/
 let slideIndex2 = 1;
 showSlides2(slideIndex2);
 
