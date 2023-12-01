@@ -15,7 +15,6 @@
     "security"
   ],
 
-
   "icons": [
     { 
       "src": "AppImages/ios/1024.png", 
@@ -24,7 +23,6 @@
     { "src": "AppImages/ios/1024.png", 
     "purpose": "maskable" 
     },
-
 
     {
       "src": "AppImages/windows11/SmallTile.scale-100.png",
